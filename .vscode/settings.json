@@ -1,16 +1,14 @@
 {
-    "C_Cpp.intelliSenseEngine": "default",
-    "idf.adapterTargetName": "esp32",
-    "idf.customExtraPaths": "/Users/jih/.espressif/tools/xtensa-esp-elf-gdb/14.2_20240403/xtensa-esp-elf-gdb/bin:/Users/jih/.espressif/tools/riscv32-esp-elf-gdb/14.2_20240403/riscv32-esp-elf-gdb/bin:/Users/jih/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/Users/jih/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin:/Users/jih/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/jih/.espressif/tools/cmake/3.24.0/CMake.app/Contents/bin:/Users/jih/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/bin:/Users/jih/.espressif/tools/ninja/1.11.1:/Users/jih/.espressif/tools/esp-rom-elfs/20230320",
-    "idf.customExtraVars": {
-        "OPENOCD_SCRIPTS": "/Users/jih/.espressif/tools/openocd-esp32/v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
-        "ESP_ROM_ELF_DIR": "/Users/jih/.espressif/tools/esp-rom-elfs/20230320/"
-    },
-    "idf.espIdfPath": "/Users/jih/esp/v5.2.2/esp-idf",
-    "idf.openOcdConfigs": [
-        "board/esp32-wrover-kit-3.3v.cfg"
-    ],
-    "idf.port": "/dev/tty.wchusbserial51850044771",
-    "idf.pythonBinPath": "/Users/jih/.espressif/python_env/idf5.2_py3.9_env/bin/python",
-    "idf.toolsPath": "/Users/jih/.espressif"
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32",
+  "idf.customExtraPaths": "/Users/jih/.espressif/tools/xtensa-esp-elf-gdb/11.2_20220823/xtensa-esp-elf-gdb/bin:/Users/jih/.espressif/tools/riscv32-esp-elf-gdb/11.2_20220823/riscv32-esp-elf-gdb/bin:/Users/jih/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32-elf/bin:/Users/jih/.espressif/tools/xtensa-esp32s2-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32s2-elf/bin:/Users/jih/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch5-8.4.0/xtensa-esp32s3-elf/bin:/Users/jih/.espressif/tools/riscv32-esp-elf/esp-2021r2-patch5-8.4.0/riscv32-esp-elf/bin:/Users/jih/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/jih/.espressif/tools/cmake/3.23.1/CMake.app/Contents/bin:/Users/jih/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/Users/jih/.espressif/tools/ninja/1.10.2",
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "/Users/jih/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts"
+  },
+  "idf.espIdfPath": "/Users/jih/esp/v4.4.7/esp-idf",
+  "idf.openOcdConfigs": ["board/esp32-wrover-kit-3.3v.cfg"],
+  "idf.port": "/dev/tty.wchusbserial51850044771",
+  "idf.pythonBinPath": "/Users/jih/.espressif/python_env/idf4.4_py3.9_env/bin/python",
+  "idf.toolsPath": "/Users/jih/.espressif",
+  "idf.gitPath": "git"
 }
