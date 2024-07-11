@@ -46,12 +46,12 @@ static void rgb_led_pwm_init(void)
     {
         ledc_channel_config_t ledc_channel = {
             .channel = ledc_ch[rgb_ch].channel,
-            .duty = 0,
-            .hpoint = 0,
             .gpio_num = ledc_ch[rgb_ch].gpio,
-            .intr_type = LEDC_INTR_DISABLE,
             .speed_mode = ledc_ch[rgb_ch].mode,
             .timer_sel = ledc_ch[rgb_ch].timer_index,
+            .duty = 0,
+            .hpoint = 0,
+            .intr_type = LEDC_INTR_DISABLE,
         };
         ledc_channel_config(&ledc_channel);
     }
