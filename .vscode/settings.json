@@ -7,8 +7,11 @@
   },
   "idf.espIdfPath": "/Users/jih/esp/v4.4.7/esp-idf",
   "idf.openOcdConfigs": ["board/esp32-wrover-kit-3.3v.cfg"],
-  "idf.port": "/dev/tty.wchusbserial51850044771",
+  "idf.port": "/dev/tty.wchusbserial1330",
   "idf.pythonBinPath": "/Users/jih/.espressif/python_env/idf4.4_py3.9_env/bin/python",
   "idf.toolsPath": "/Users/jih/.espressif",
-  "idf.gitPath": "git"
+  "idf.gitPath": "git",
+  "files.associations": {
+    "esp_netif.h": "c"
+  }
 }
