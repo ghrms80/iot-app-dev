@@ -6,6 +6,7 @@
 
 // WiFi application settings
 #define WIFI_AP_SSID "ESP32_AP"          // AP name
+// #define WIFI_AP_SSID "FW_UPDATE_TEST"
 #define WIFI_AP_PASSWORD "password"      // AP password
 #define WIFI_AP_CHANNEL 1                // AP channel
 #define WIFI_AP_SSID_HIDDEN 0            // AP visibility

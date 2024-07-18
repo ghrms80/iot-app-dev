@@ -12,6 +12,8 @@
   "idf.toolsPath": "/Users/jih/.espressif",
   "idf.gitPath": "git",
   "files.associations": {
-    "esp_netif.h": "c"
+    "esp_netif.h": "c",
+    "esp_partition.h": "c",
+    "cstring": "c"
   }
 }
